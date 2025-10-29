@@ -21,14 +21,11 @@
 title: Feirm App
 email: info@feirmapp.ie
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  An app that makes management of your livestock and crops much easier.
+  Make your farm administration simpler.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: feirmapp.ie
-url: https://feirmapp.ie/
-# twitter_username: jekyllrb
-# github_username:  jekyll
+url: "https://feirmapp.ie" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  diarmuidr3d
 
 # Build settings
 theme: minima

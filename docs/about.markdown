@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Feirm - Simple farm management Android App
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Feirm app allows you to track animal events on the go (Sales, Births, Deaths, Animal Health) and auto-generates reports for you based on that data to make filling out paperwork super easy.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Made in Ireland by an organic sheep farmer so it's built to work.
 
-
-[jekyll-organization]: https://github.com/jekyll
+[See the app on Google Play](https://play.google.com/store/apps/details?id=io.github.diarmuidr3d.feirm)

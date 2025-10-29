@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "DIY an 18650 battery charger"
+date:   2025-10-29 22:33:36 +0000
+categories: maker
+---
+
+Looking to use some 18650 batteries in a project and need to be able to charge them?
+
+Here's a quick guide to putting that together and getting it working.
+
+
+## Parts
+
+- [Charge controller](https://makershop.ie/TP4056-with-bms?search=tp4056&description=true) - This is a `TP4056` board, you can buy from many shops and with different connectors, I went with the USB-C version.
+- [Battery](https://makershop.ie/INR18650-26ME?search=18650&description=true) - 18650 battery
+- [Battery holder](https://makershop.ie/battery-holder-1x18650?search=18650&description=true)
+- Wire - Any should do, just try get some in black and some in red so you can match the colours to the terminals.
+- [Soldering iron](https://gleanntronics.ie/en/products/220v-60w-soldering-iron-with-temperature-control-uk-irish-plug-3624.html) - any should do
+- [Solder wire](https://gleanntronics.ie/en/products/solder-wire-sn60pb40-sw26-2-5-o1-0-16g-vial-12.html?query_id=1) - Again most solder should do
+- Any USB to USB-C cable
+- A USB power supply (I used an older samsung charger, oddly some newer chargers wouldn't work)
+
+## Steps
+
+1. Find the negative (-) end on the battery holder, and solder some black wire to it
+2. Repeat for the positive (+) end, solder some red wire to it.
+3. Connect the other end of red wire to the positive (B+) terminal on the charge controller and solder it to it.
+4. Connect the other end of the black wire to the negative (B-) terminal on the charge controller and solder it to it.
+5. Insert your battery into the holder with the negative (-) and positive (+) facing the correct ends.
+6. Insert the usb-c end of the cable into the charge controller and plug the other end into your power supply.
+7. The red light will come on to indicate charging and switch to blue when complete, this can take a few hours.
